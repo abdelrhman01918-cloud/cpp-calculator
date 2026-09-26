@@ -1,18 +1,16 @@
 //day 3 of programming 
 #include <iostream>
-#include <cmath>
 int main()
 {
 	double num1 = 0.0;
 	double num2 = 0.0;
-	double result = 0.0;
 	char operation = '+';
 
-	std::cout << "Enter number 1 ";
+	std::cout << "Enter number 1: ";
 	std::cin >> num1;
-	std::cout << "choose the operation * , / , + , - ";
+	std::cout << "choose the operation * , / , + , - :";
 	std::cin >> operation;
-	std::cout << "Enter number 2 ";
+	std::cout << "Enter number 2: ";
 	std::cin >> num2;
 
 	if (operation == '*')
